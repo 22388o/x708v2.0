@@ -22,11 +22,4 @@ def my_callback(channel):
         print ("---AC Power OK,Power Adapter OK---")
 
 GPIO.add_event_detect(6, GPIO.BOTH, callback=my_callback)
-
-#print ("1.Make sure your power adapter is connected")
-#print ("2.Disconnect and then connect the power adapter again to test")
-#print ("3.When power adapter disconnected, you will see: AC Power Loss or Power Adapter Failure")
-#print ("4.When power adapter reconnected, you will see: AC Power OK, Power Adapter OK")
-
 input("Testing Started")
-
